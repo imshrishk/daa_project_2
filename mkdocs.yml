@@ -1,0 +1,34 @@
+site_name: "DAA Assignment 2 Documentation"
+site_url: "https://imshrishk.github.io/daa_project_2/"
+site_description: "Project 2 for DAA"
+repo_url: "https://github.com/imshrishk/daa_project_2"
+repo_name: "GitHub Repository"
+
+nav:
+  - Algorithms:
+    - "Example Algorithm": example-README.md
+
+  - Results Analysis: result_analysis.md
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+plugins:
+  - search
