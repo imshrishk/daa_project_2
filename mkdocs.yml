@@ -4,11 +4,6 @@ site_description: "Project 2 for DAA"
 repo_url: "https://github.com/imshrishk/daa_project_2"
 repo_name: "GitHub Repository"
 
-nav:
-  - Algorithms:
-    - "Example Algorithm": example-README.md
-
-  - Results Analysis: result_analysis.md
 
 theme:
   name: material
