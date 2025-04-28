@@ -1,5 +1,5 @@
 
-# DAA Assignment 1   
+# DAA Assignment 2 
 
 The paper given addresses the problem of finding the densest subgraph (DSD) in large graphs, a fundamental task in graph mining with applications in network analysis and bioinformatics. The authors introduce a core-based approach that leverages the concept of k-cores (dense subgraphs where every vertex has at least k connections) to accelerate computations.
 
